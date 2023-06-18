@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="get" action="RegistrationForm">
+            <h1>This is Registration form</h1>
+            Enter your Name: 
+             <input type="text" name="name"/> <br>
+            Enter your Password:
+            <input type="password" name="pwd"/> <br>
+            Enter your Email:
+            <input type="email" name="email"/> <br>
+            Select Gender:
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female <br>
+            Select your Course:
+            <select name="course">
+                <option value="BCA">BCA</option>
+                <option value="CSIT">CSIT</option>
+                <option value="MBBS">MBBS</option>
+                <option value="BBM">BBM</option>
+                <option value="BBA">BBA</option>
+            </select> <br>
+            <input type="checkbox" name="terms" value="true">Agree Terms and Conditions <br>
+            <button type="submit" name="submit">Submit</button>
+            <button type="reset" value="reset" name="reset">Reset</button>
+        </form>
+    </body>
+</html>
