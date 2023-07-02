@@ -13,12 +13,12 @@
         <title>JSP Page</title>
     </head>
     <body>
-         <!-- Scriptlet Tag -->
+        <!-- Scriptlet Tag -->
         <% 
             String name = request.getParameter("uname");
             out.print("Welcome " + name);
         %>
-       
+
         <!-- Expression Tag -->
         <%=
             "Welcome" + request.getParameter("uname")
@@ -36,8 +36,9 @@
         <%= 
             "Cube of 3 is:"+ cube(3)
         %>
-        %>-->
-        
+        %>
+
+ 
     </body>
 </html>
 
